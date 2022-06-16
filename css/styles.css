@@ -1,3 +1,97 @@
+/* Основной цвет #212121 */
+/* Вторичный цвет background: #757575 */
+/* Белый #FFFFFF */
+/* Адресс #FFFFFF 60% */
+/* Лого #2196F3 */
+.page {
+    background: #FFFFFF;
+    color: #757575;
+
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo-accent {
+color: #212121;
+}
+
+.logo-accent-link {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.button-hero {  
+    color: #ffffff;
+    background: #2196F3;
+    border: none;
+}
+
+h2, h3 {
+    color: #212121;
+}
+
 :root {
     
+}
+
+.site-nav a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.contact a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.contact .address {
+    color: #ffffff;
+}
+
+.page-hero {
+    background: #2F303A;
+}
+
+.page-team {
+    background: #F5F4FA;
+}
+
+.page-footer {
+    background: #2F303A;
+}
+
+.button-filt {
+    color: #212121;
+        background: #F5F4FA;
+        border: none;
+}
+
+.site-nav a:hover {
+    color: #2196F3;
+}
+
+.contact a:hover {
+    color: #2196F3
+}
+
+.button-filt:hover {
+    background: #2196F3;
+    color: #ffffff;
+
 }
