@@ -84,7 +84,6 @@ color: var(--title-text-color);
 }
 
 /* Преимущества */
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -119,7 +118,6 @@ h2, h3 {
 }
 
 /* Наша команда */
-
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -152,8 +150,6 @@ h2, h3 {
 
 
 /* Портфолио */
-
-
 .contact-footer .address {
     color: var(--primary-white-color);
 }
