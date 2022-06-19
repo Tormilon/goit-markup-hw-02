@@ -58,6 +58,7 @@ color: var(--title-text-color);
 }
 
 .contact a {
+    font-weight: 500;
     line-height: 1.14;
     color: var(--primary-text-color);
     text-decoration: none;
@@ -81,6 +82,12 @@ color: var(--title-text-color);
     background: var(--accent-color);
     border: none;
     cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #188ce8;
+    color: #FFFfFF;
 }
 
 /* Преимущества */
@@ -107,7 +114,7 @@ h2, h3 {
 }
 
 .subtitle h3 {
-    font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: 1.14;
 }
@@ -118,7 +125,6 @@ h2, h3 {
 
 /* Наша команда */
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -165,6 +171,7 @@ h2, h3 {
 }
 
 .button-filt {
+    font-family: inherit;
     color: var(--title-text-color);
     background: #F5F4FA;
     border: none;
@@ -175,15 +182,44 @@ h2, h3 {
     text-align: center;
 }
 
-.site-nav a:hover {
+.active {
+    font-family: inherit;
+    color: var(--title-text-color);
+    background: #F5F4FA;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
     color: var(--accent-color);
 }
 
-.contact a:hover {
+.contact a:hover, 
+.contact a:focus {
     color: var(--accent-color);
 }
 
-.button-filt:active {
+.contact-footer a:hover,
+.contact-footer a:focus {
+    color: var(--accent-color);
+}
+
+.filter-list button:hover,
+.filter-list button:focus {
+    color: var(--accent-color);
+}
+
+.active:active {
+    background: var(--accent-color);
+    color: #ffffff;
+}
+
+.active {
     background: var(--accent-color);
     color: #ffffff;
 }
