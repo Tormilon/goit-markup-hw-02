@@ -110,7 +110,6 @@ h2, h3 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.14;
-    letter-spacing: 0.03em;
 }
 
 .subtitle p {
@@ -123,7 +122,6 @@ h2, h3 {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team h3 {
