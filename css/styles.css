@@ -17,7 +17,6 @@ body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family:Roboto;
-    font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -204,17 +203,20 @@ h2, h3 {
     color: var(--accent-color);
 }
 
-.contact-footer a:hover,
-.contact-footer a:focus {
+.info:hover,
+.info:focus {
     color: var(--accent-color);
 }
 
-.filter-list button:hover,
-.filter-list button:focus {
-    color: var(--accent-color);
+.button-filt:hover,
+.button-filt:focus {
+    background: var(--accent-color);
+    color: #ffffff;
 }
 
-.active:active {
+.active:active,
+.active:hover,
+.active:focus {
     background: var(--accent-color);
     color: #ffffff;
 }
